@@ -10,7 +10,7 @@
             <div class="bg-blue-900 text-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6">
                     <!-- Add Academician Button -->
-                    <a href="{{ route('academicians.create') }}" class="inline-block mb-4 px-4 py-2 bg-black hover:bg-gray-800 text-white font-semibold rounded-md shadow-md">
+                    <a href="{{ route('academicians.create') }}" class="inline-block mb-4 px-4 py-2 bg-blue-800 hover:bg-blue-500 text-white font-semibold rounded-md shadow-md">
                         Add Academician
                     </a>
                     <table class="min-w-full table-auto bg-blue-800 rounded-lg shadow-md overflow-hidden">

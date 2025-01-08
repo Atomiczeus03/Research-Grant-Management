@@ -22,7 +22,7 @@
         background-attachment: fixed; 
         background-position: center;
     ">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900 bg-opacity-90">
+        <div class="min-h-screen">
             @include('layouts.navigation')
 
             <!-- Page Heading -->

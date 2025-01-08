@@ -15,14 +15,16 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
+        <!-- Background Styling -->
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0"
+             style="background-image: url('https://static.vecteezy.com/system/resources/previews/004/256/686/non_2x/abstract-dark-pink-gradient-geometric-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-free-vector.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
             <div>
                 <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
+            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white/80 dark:bg-gray-800/90 shadow-md overflow-hidden sm:rounded-lg backdrop-blur-md">
                 {{ $slot }}
             </div>
         </div>

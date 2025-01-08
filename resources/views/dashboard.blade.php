@@ -6,7 +6,7 @@
     </x-slot>
 
     <div class="min-h-screen" style="
-        background-image: url('https://wallpaperaccess.com/full/4128936.jpg'); 
+       
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center; 
